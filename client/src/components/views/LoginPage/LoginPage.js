@@ -14,7 +14,9 @@ function LoginPage() {
   }
 
   const onSubmitHandler = (event) => {
-    
+   event.preventDefault();
+   console.log('Email', Email)
+   console.log('Password', Password)
   }
 
 
